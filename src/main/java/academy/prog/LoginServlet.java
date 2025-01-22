@@ -9,8 +9,6 @@ public class LoginServlet extends HttpServlet {
     static final String LOGIN = "admin";
     static final String PASS = "admin";
 
-    int a=1;
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String login = request.getParameter("login");
